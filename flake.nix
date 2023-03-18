@@ -28,7 +28,7 @@
             inherit version;
             src = ./.;
 
-            vendorSha256 = "sha256-8cbcE9gKJjU14DNTLPc6nneEPZg7Akt+FlSDlPRvG5k=";
+            vendorSha256 = "sha256-3j+5fF57eu7JJd3rnrWYwuWDivycUkUTTzptYaK3G/Q=";
 
             # Do not build testing suit
             excludedPackages = [ "./test" ];
